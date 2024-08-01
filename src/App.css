@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+label {
+  margin-bottom: .5em;
+  color: #333;
+  display: block;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  padding: .5em;
+  font-size: 1em;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}

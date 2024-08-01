@@ -26,7 +26,7 @@ function Portfolio() {
           <div key={index}>
             <h3>{project.title}</h3>
             <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
-              <img src={project.image} alt={project.title} />
+              <img src={project.image} alt={project.title} style={{ width: '50vh' }} />
             </a>
             <p>
               <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Deployed Application</a> | 
