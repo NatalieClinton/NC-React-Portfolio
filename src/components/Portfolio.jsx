@@ -1,16 +1,18 @@
 import React from 'react';
+import hungryExplorerImage from '../assets/images/Hungry Explorer Slide.png';
+import high5Image from '../assets/images/High5 Slide.png';
 
 const projects = [
   {
     title: 'Hungry Explorer - Find Nearby Restaurants',
-    image: 'link-to-image-1.jpg',
+    image: hungryExplorerImage,
     deployedLink: 'https://natalieclinton.github.io/Project1-Group3/',
     githubLink: 'https://github.com/NatalieClinton/Project1-Group3'
   },
   {
     title: 'High 5 - Employee Feedback and Recognition Platform',
-    image: 'link-to-image-2.jpg',
-    deployedLink: ' https://high5-bd4r.onrender.com',
+    image: high5Image,
+    deployedLink: 'https://high5-bd4r.onrender.com',
     githubLink: 'https://github.com/catdelaney/High5'
   },
 ];
