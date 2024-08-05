@@ -1,6 +1,10 @@
 import React from 'react';
 import hungryExplorerImage from '../assets/images/Hungry Explorer Slide.png';
 import high5Image from '../assets/images/High5 Slide.png';
+import teamTrackerImage from '../assets/images/team-tracker.png';
+import quantumCommerceImage from '../assets/images/quantum-commerce.png';
+import checkpointImage from '../assets/images/checkpoint.png';
+import logoMojoImage from '../assets/images/logo-mojo.png';
 
 const projects = [
   {
@@ -14,6 +18,30 @@ const projects = [
     image: high5Image,
     deployedLink: 'https://high5-bd4r.onrender.com',
     githubLink: 'https://github.com/catdelaney/High5'
+  },
+  {
+    title: 'CheckPoint - Note Taker',
+    image: checkpointImage,
+    deployedLink: 'https://checkpoint-ca8b.onrender.com',
+    githubLink: 'https://github.com/NatalieClinton/CheckPoint'
+  },
+  {
+    title: 'Team Tracker - Employee Tracker',
+    image: teamTrackerImage,
+    deployedLink: 'https://natalieclinton.github.io/Team-Tracker/',
+    githubLink: 'https://github.com/NatalieClinton/Team-Tracker'
+  },
+  {
+    title: 'Quantum Commerce - ORM Ecommerce Platform',
+    image: quantumCommerceImage,
+    deployedLink: 'https://natalieclinton.github.io/Quantum-Commerce/',
+    githubLink: 'https://github.com/NatalieClinton/Quantum-Commerce'
+  },
+  {
+    title: 'Logo Mojo - SVG Logo Maker',
+    image: logoMojoImage,
+    deployedLink: 'https://natalieclinton.github.io/Logo-Mojo/',
+    githubLink: 'https://github.com/NatalieClinton/Logo-Mojo'
   },
 ];
 

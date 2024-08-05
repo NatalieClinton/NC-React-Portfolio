@@ -7,7 +7,7 @@ function Resume() {
       <p>
         You can download my resume using the link below:
       </p>
-      <a href="/path/to/your/resume.pdf" download>
+      <a href=".\src\assets\images\Natalie Clinton - Resume 2024 - V2.pdf" download>
         Download Resume
       </a>
       <h3>Skills and Proficiencies</h3>

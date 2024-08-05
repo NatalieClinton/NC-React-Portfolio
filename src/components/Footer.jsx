@@ -9,6 +9,7 @@ function Footer() {
       <ul>
         <li><a href="https://github.com/NatalieClinton">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/natalie-clinton-892b42152/">LinkedIn</a></li>
+        <li><a href="https://stackoverflow.com/users/23465888/natalie-clinton?tab=profile">Stack Overflow</a></li>
       </ul>
     </footer>
   );
