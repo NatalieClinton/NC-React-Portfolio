@@ -6,8 +6,6 @@ Welcome to my personal portfolio! This single-page application showcases my skil
 
 This portfolio website is designed to give you a glimpse into my professional experience, projects, and skills. It is built using React, a popular JavaScript library for building user interfaces, and it features a clean, modern design with responsive layouts.
 
-You can view the live site here: [Natalie Clinton's Portfolio](https://nc-react-portfolio.netlify.app/)
-
 ## Features
 
 - **Header**: Displays my name and provides navigation to different sections of the portfolio.
