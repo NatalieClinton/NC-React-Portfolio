@@ -47,16 +47,16 @@ const projects = [
 
 function Portfolio() {
   return (
-    <section>
-      <h2>Portfolio</h2>
-      <div>
+    <section className="portfolio-section">
+      <h2 className="portfolio-heading">Portfolio</h2>
+      <div className="portfolio-container">
         {projects.map((project, index) => (
-          <div key={index}>
-            <h3>{project.title}</h3>
+          <div className="portfolio-item" key={index}>
+            <h3 className="portfolio-title">{project.title}</h3>
             <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
-              <img src={project.image} alt={project.title} style={{ width: '50vh' }} />
+              <img className="portfolio-image" src={project.image} alt={project.title} />
             </a>
-            <p>
+            <p className="portfolio-links">
               <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">Deployed Application</a> | 
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
             </p>
