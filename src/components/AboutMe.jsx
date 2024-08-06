@@ -10,7 +10,7 @@ function AboutMe() {
         <img src={wave} alt="Natalie Clinton" className="profile-image" />
         <div className="about-me-details">
           <h4>Hi, I'm Natalie👋</h4>
-          <h6>I'm a Full Stack Developer.</h6>
+          <h6>A Full Stack Developer.</h6>
           <p>⚡Fueled by Coffee</p>
           <p>🌎Based in Toronto</p>
           <p>💼Project Coordinator at Gray's</p>
