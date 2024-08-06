@@ -80,11 +80,85 @@ nav {
   }
 }
 
+/* About Me Styles */
+.about-me-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-image {
+  width: 21vh;
+  height: 18vh;
+  margin-right: 2rem;
+}
+
+.about-me-details {
+  max-width: 100%;
+  text-align: left;
+}
+
+.about-me-details h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.about-me-details h6 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.about-me-details p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.about-me-description,
+.about-me-contact {
+  font-size: 1rem;
+  color: #333;
+  margin: 1rem 0;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.about-me-contact {
+  text-align: center;
+}
+
+.about-me-contact a {
+  color: #60884e;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-me-contact a:hover {
+  text-decoration: underline;
+}
+
 /* Contact Form Styles */
 form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 1em;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 50px;
   border-radius: 5px;
   background-color: #f9f9f9;
 }
@@ -94,6 +168,7 @@ div {
 }
 
 label {
+  text-align: left;
   margin-bottom: .5em;
   color: #333;
   display: block;
