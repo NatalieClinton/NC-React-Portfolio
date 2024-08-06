@@ -4,7 +4,7 @@ import myHead from '../assets/images/my head.jpg';
 function AboutMe() {
   return (
     <section>
-      <h2>About Me</h2>
+      <h2 className="section-heading" >About Me</h2>
       <div>
       <img src={myHead} alt="Natalie Clinton" width="150" style={{ borderRadius: '50%' }} />
         <p>

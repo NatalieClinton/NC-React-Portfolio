@@ -5,7 +5,7 @@ function Navbar() {
   return (
 <nav>
       <div className="navbar-container">
-        <div className="navbar-name">Natalie Clinton</div> 
+        <div className="navbar-name">: Natalie Clinton :</div> 
         <ul className="navbar-links">
           <li>
             <Link to="/about">About Me</Link>

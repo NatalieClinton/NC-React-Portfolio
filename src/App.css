@@ -5,10 +5,26 @@
   text-align: center;
 }
 
+/* Global font settings */
+body {
+  font-family: "Montserrat", "Lato", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Header styles shared across pages */
+.section-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5rem;
+}
+
 /* Navbar Styles */
 nav {
-  padding: 1rem 2rem 1rem 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #c5c4c498;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-container {
@@ -29,7 +45,7 @@ nav {
 }
 
 .navbar-links a {
-  color: #60884e;
+  color: #333;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
@@ -41,9 +57,11 @@ nav {
 }
 
 .navbar-name {
-  color: #60884e;
+  color: #333;
   font-size: 1.2rem;
   font-weight: 700;
+  padding-left: 1rem;
+  margin: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -117,14 +135,6 @@ button:hover {
   border-radius: 8px;
 }
 
-.resume-heading {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  border-bottom: 2px solid black;
-  padding-bottom: 0.5rem;
-}
-
 .resume-text {
   font-size: 1.1rem;
   color: #333;
@@ -178,14 +188,6 @@ button:hover {
   background-color: #f9f9f9;
 }
 
-.portfolio-heading {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 2.5rem;
-  border-bottom: 2px solid black;
-  padding-bottom: 0.5rem;
-}
-
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
@@ -234,4 +236,45 @@ button:hover {
 
 .portfolio-links a:hover {
   color: #60884ea2;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  bottom: 0;
+  width: 95%;
+  border-top: 1px solid #444;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+footer ul li a {
+  color: #4ab6e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer ul li a:visited {
+  color: #a0d0f1;
 }

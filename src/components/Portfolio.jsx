@@ -48,7 +48,7 @@ const projects = [
 function Portfolio() {
   return (
     <section className="portfolio-section">
-      <h2 className="portfolio-heading">Portfolio</h2>
+      <h2 className="section-heading">Portfolio</h2>
       <div className="portfolio-container">
         {projects.map((project, index) => (
           <div className="portfolio-item" key={index}>
