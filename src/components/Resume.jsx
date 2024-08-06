@@ -11,16 +11,26 @@ function Resume() {
         Download Resume
       </a>
       <h3 className="resume-subheading">Skills and Proficiencies</h3>
-      <ul className="resume-list">
-        <li className="resume-list-item">JavaScript</li>
-        <li className="resume-list-item">React</li>
-        <li className="resume-list-item">Node.js</li>
-        <li className="resume-list-item">Express.js</li>
-        <li className="resume-list-item">HTML & CSS</li>
-        <li className="resume-list-item">SQL & NoSQL Databases</li>
-        <li className="resume-list-item">Git & GitHub</li>
-        <li className="resume-list-item">Responsive Design</li>
-      </ul>
+      <ul class="resume-list">
+  <li class="resume-list-item">MongoDB</li>
+  <li class="resume-list-item">Express.js</li>
+  <li class="resume-list-item">React.js</li>
+  <li class="resume-list-item">Node.js</li>
+  <li class="resume-list-item">JavaScript</li>
+  <li class="resume-list-item">HTML5</li>
+  <li class="resume-list-item">CSS</li>
+  <li class="resume-list-item">RESTful APIs</li>
+  <li class="resume-list-item">GraphQL</li>
+  <li class="resume-list-item">JWT Authentication</li>
+  <li class="resume-list-item">Mongoose ODM</li>
+  <li class="resume-list-item">Sequelize ORM</li>
+  <li class="resume-list-item">Git / GitHub</li>
+  <li class="resume-list-item">Jest</li>
+  <li class="resume-list-item">Responsive Design</li>
+  <li class="resume-list-item">Code Review Practices</li>
+  <li class="resume-list-item">API Integration</li>
+  <li class="resume-list-item">Cross-Browser Compatibility</li>
+</ul>
     </section>
   );
 }

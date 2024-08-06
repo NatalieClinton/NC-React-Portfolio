@@ -1,24 +1,47 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
+  const location = useLocation(); 
+  const currentPath = location.pathname;
+
   return (
 <nav>
       <div className="navbar-container">
         <div className="navbar-name">: Natalie Clinton :</div> 
         <ul className="navbar-links">
-          <li>
-            <Link to="/about">About Me</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/resume">Resume</Link>
-          </li>
+        <li>
+          <Link
+            to="/about"
+            className={currentPath === '/about' ? 'active' : ''}
+          >
+            About Me
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/portfolio"
+            className={currentPath === '/portfolio' ? 'active' : ''}
+          >
+            Portfolio
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/contact"
+            className={currentPath === '/contact' ? 'active' : ''}
+          >
+            Contact
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/resume"
+            className={currentPath === '/resume' ? 'active' : ''}
+          >
+            Resume
+          </Link>
+        </li>
         </ul>
       </div>
     </nav>

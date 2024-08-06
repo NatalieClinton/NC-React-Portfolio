@@ -64,6 +64,11 @@ nav {
   margin: 1rem;
 }
 
+.navbar-links a.active {
+  color: #60884e;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
