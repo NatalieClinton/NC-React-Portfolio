@@ -2,13 +2,6 @@
 
 Welcome to my personal portfolio! This single-page application showcases my skills, projects, and contact information as a Full Stack Developer specializing in the MERN stack.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Contact](#contact)
-- [Live] (#Live)
-
 ## Introduction
 
 This portfolio website is designed to give you a glimpse into my professional experience, projects, and skills. It is built using React, a popular JavaScript library for building user interfaces, and it features a clean, modern design with responsive layouts.
@@ -30,5 +23,5 @@ For any questions or feedback regarding this project, feel free to reach out to 
 - [Email](mailto:natalie.clinton@hotmail.com)
 - [GitHub](https://github.com/NatalieClinton)
 
-## Live
+## Deployed Application
 This application is deployed on Netlify and can be accessed at the following URL: https://nc-react-portfolio.netlify.app/
