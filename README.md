@@ -20,6 +20,7 @@ For any questions or feedback regarding this project, feel free to reach out to 
 
 - [Email](mailto:natalie.clinton@hotmail.com)
 - [GitHub](https://github.com/NatalieClinton)
+- [LinkedIn](www.linkedin.com/in/natalie-clinton)
 
 ## Deployed Application
 This application is deployed on Netlify and can be accessed at the following URL: https://nc-react-portfolio.netlify.app/
